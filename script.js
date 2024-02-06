@@ -24,7 +24,7 @@ var x = setInterval(function () {
 var tl = gsap.timeline();
 
 
-// gsap animation
+// navbar animations 
 tl.from('.navbar', {
     stagger: .3,
     duration: 1,
