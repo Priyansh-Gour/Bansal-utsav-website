@@ -34,6 +34,7 @@
 .heading h3{
     font-size: 1.7rem;
     color: #fff;
+    /* font-family: nb; */
 }
 .nav{
     display: flex;
