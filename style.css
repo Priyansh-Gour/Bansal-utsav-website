@@ -100,7 +100,7 @@ li{
 }
 
 .entry-header h2{
-    padding: 50px;
+    padding: 5px;
     text-align: center;
     margin: 0;
     font-family: mountain;
@@ -110,6 +110,23 @@ li{
     -webkit-background-clip: text;
 }
 
+
+.entry-header h3{
+    width: 100%;
+    position: absolute;
+    font-size:60px;
+    background: -webkit-linear-gradient(#2bbedf, #25ffbf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: mountain;
+    top: 45%;
+    text-align: center;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
 /* Responsive CSS */
 
 @media screen and (max-width:992px) {

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bansal Utsav College Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 80%;
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #007bff;
+        }
+        form {
+            margin-top: 20px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            color: #333;
+        }
+        input[type="text"], input[type="number"], input[type="email"], select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        @media screen and (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            input[type="submit"] {
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Bansal Utsav College Login</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="sem">Semester:</label>
+                <input type="number" id="sem" name="sem" required>
+            </div>
+            <div class="form-group">
+                <label for="enroll">Enrollment No.:</label>
+                <input type="text" id="enroll" name="enroll" required>
+            </div>
+            <div class="form-group">
+                <label for="enroll">Gender:</label>
+                Male: <input type="radio" name="same" required>
+                Female: <input type="radio" name="same" required>
+            </div>
+            <div class="form-group">
+                <label for="event">Event:</label>
+                <select id="event" name="event" required>
+                    <option value="">Select Event</option>
+                    <option value="Singing
+                    (Classical/Folk/Western)">Cultural Festival</option>
+                    <option value="Dancing
+                    (Group/Classical/Folk/Western)">Sports Tournament</option>
+                    <option value="Music Band">Academic Seminar</option>
+                    <option value="Street Style">Tech Expo</option>
+                    <option value="Wall Painting">Art Exhibition</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone No.:</label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
