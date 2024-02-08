@@ -1,6 +1,6 @@
 @font-face {
     src: url(./fonts/MigraItalic-ExtralightItalic.ttf);
-    font-family:nb ;
+    font-family:nb ; 
   }
 @font-face {
     src: url(./fonts/beyond_the_mountains.ttf);
@@ -49,6 +49,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    font-weight: 600;
 }
 li{
     list-style: none;
@@ -107,6 +108,24 @@ li{
     background: -webkit-linear-gradient(#2bbedf, #25ffbf);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+}
+
+/* Responsive CSS */
+
+@media screen and (max-width:992px) {
+    
+}
+
+@media screen and (max-width:768px) {
+    
+}
+
+@media screen and (max-width:576px) {
+    
+}
+
+@media screen and (max-width:350px) {
+    
 }
 
 
