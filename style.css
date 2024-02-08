@@ -33,7 +33,7 @@
 }
 .heading h3{
     font-size: 1.7rem;
-    color: #fff;
+    color: rgb(243, 150, 21);
     /* font-family: nb; */
 }
 .nav{
@@ -56,7 +56,7 @@ li{
 }
 .navbar li a{
     text-decoration: none;
-    color: #fff;
+    color: rgb(243, 150, 21);
 }
 
 .register-btn{
