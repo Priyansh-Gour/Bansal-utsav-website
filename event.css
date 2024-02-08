@@ -9,9 +9,10 @@
 }
 
 .main{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     padding: 10px;
+    /* background:linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)) ,url('./img/about-us-content-image.jpg'); */
 }
 
 .content{
