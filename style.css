@@ -113,6 +113,8 @@ li{
     background: -webkit-linear-gradient(#2bbedf, #25ffbf);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
+
 }
 
 
@@ -123,6 +125,7 @@ li{
     background: -webkit-linear-gradient(#2bbedf, #25ffbf);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
     font-family: mountain;
     top: 45%;
     text-align: center;
