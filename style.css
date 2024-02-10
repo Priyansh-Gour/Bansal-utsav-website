@@ -183,15 +183,75 @@ li{
 }
 
 @media screen and (max-width:768px) {
-    
+    .navbar{
+        margin-left: 10%;
+    }
+    .entry-header h2{
+        font-size: 100px;
+    }
+    .entry-header h3{
+        top: 40%;
+        font-size: 50px;
+    }
+
 }
 
 @media screen and (max-width:576px) {
-    
+    .navbar{
+        display: none;
+    }
+    .sidebar,.hidebar{
+        display: block;
+    }
+    .heading{
+        width: 250px;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .entry-header h2{
+        font-size: 70px;
+    }
+    .entry-header h3{
+        top: 40%;
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width:350px) {
-    
+    .entry-header h2{
+        font-size: 50px;
+    }
+    .entry-header h3{
+        top: 40%;
+        font-size: 20px;
+    }
+    .heading h3{
+        font-size: 1.2rem;
+    }
+    .heading{
+        margin-left: 0;
+        padding: 10px;
+    }
+    .countdown{
+        padding: 0 20%;
+    }
+    .countdown-holder{
+        font-size: 0.7rem;
+        width: 100%;
+    }
+    .countdown-holder .time{
+        font-size: 1.5rem;
+    }
+    .btn{
+        width: 150px;
+        padding: 10px 10px;
+        border-radius: 5px;
+        margin-right: 20px;
+        color: hsl(0, 20%, 97%);
+        font-weight: 600;
+        font-size: 0.7rem;
+    }
 }
 
 
