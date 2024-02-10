@@ -40,3 +40,8 @@ tl.from('.navbar', {
     ease: 'Expo.easeInOut',
     opacity: 0
 }, '-=2')
+
+
+// Login Authentication
+
+
