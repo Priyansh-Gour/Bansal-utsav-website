@@ -57,8 +57,3 @@ menubtn.addEventListener("click", (event) => {
     }
 });
 
-
-
-// Login Authentication
-
-

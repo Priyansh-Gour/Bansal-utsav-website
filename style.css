@@ -216,6 +216,16 @@ li{
         top: 40%;
         font-size: 30px;
     }
+    .countdown{
+        padding: 0 20%;
+    }
+    .countdown-holder{
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    .countdown-holder .time{
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-width:350px) {
@@ -223,6 +233,7 @@ li{
         position: absolute;
         width: 100%;
         top: 30%;
+        text-align: center;
         font-size: 50px;
     }
     .entry-header h3{
