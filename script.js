@@ -41,6 +41,23 @@ tl.from('.navbar', {
     opacity: 0
 }, '-=2')
 
+//Menu Button
+const menubtn = document.getElementById("menu");
+const sidebar = document.getElementById("sidebar");
+
+let sidebarVisible = false;
+
+menubtn.addEventListener("click", (event) => {
+    event.preventDefault();
+    sidebarVisible = !sidebarVisible;
+    if (sidebarVisible) {
+        sidebar.classList.remove("hide");
+    } else {
+        sidebar.classList.add("hide");
+    }
+});
+
+
 
 // Login Authentication
 
