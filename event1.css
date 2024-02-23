@@ -1,0 +1,60 @@
+@font-face {
+  src: url(./fonts/beyond_the_mountains.ttf);
+  font-family: mountain;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background: #f5efef;
+}
+#head {
+  padding-top: 10px;
+  font-family: mountain;
+}
+#head h1 {
+  text-align: center;
+  font-size: 4vw;
+}
+#bns-event {
+  height: 50vh;
+  width: 35vw;
+  position: absolute;
+  top: 23vh;
+  left: 45vw;
+  background: #c6d4e6;
+}
+#bns-2event {
+  height: 50vh;
+  width: 30vw;
+  padding-left: 4vw;
+  padding-top: 3vh;
+  position: absolute;
+  top: 30vh;
+  left: 19vw;
+  opacity: 0.6;
+  color: black;
+  background: hsl(0, 56%, 89%);
+}
+#bns-2event h2 {
+  font-size: 1.6rem;
+  font-family: gilroy;
+  font-weight: 800;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+#bns-2event h3 {
+  font-size: 1.4rem;
+  margin: 0.5rem;
+  font-weight: 900;
+}
