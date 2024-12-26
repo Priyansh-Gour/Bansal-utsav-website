@@ -42,9 +42,6 @@ tl.from('.navbar', {
 }, '-=2')
 
 //Menu Button
-const menubtn = document.getElementById("menu");
-const sidebar = document.getElementById("sidebar");
-
 let sidebarVisible = false;
 
 menubtn.addEventListener("click", (event) => {
